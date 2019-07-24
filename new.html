@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  
+
+<h5>Điểm Vật Lý</h5>
+<p id=vatly></p>
+<h5>Điểm Hóa Học</h5>
+<p id=hoahoc></p>
+<h5>Điểm Sinh Học</h5>
+<p id=sinhhoc></p>
+<h5>Điểm trung bình 3 môn là </h5>
+<p id=sum></p>
+
+<script type="text/javascript">
+  var vatly = prompt('Nhập vào điểm vật lý','');
+  var hoahoc = prompt('Nhập vào điểm Hóa Học','');
+  var sinhhoc = prompt('Nhập vào điểm Sinh Học','');
+
+  var sum = (+vatly + +hoahoc + +sinhhoc) / 3
+  
+  document.getElementById('vatly').innerHTML = vatly;
+  document.getElementById('hoahoc').innerHTML = hoahoc;
+  document.getElementById('sinhhoc').innerHTML = sinhhoc;
+  document.getElementById('sum').innerHTML = sum;
+
+
+  
+</script>
+
+</body>
+</html>
